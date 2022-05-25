@@ -1,2 +1,2 @@
 # TeamBigGame
- First big group project for Game Devs @APSU
+The first large game project by Game Devs @APSU
