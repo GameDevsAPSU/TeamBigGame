@@ -53,7 +53,17 @@
     <UnityVersion>2020.3.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Interactable.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\GameLayers.cs" />
+    <Compile Include="Assets\Scripts\Character\Character.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\DialogManager.cs" />
+    <Compile Include="Assets\Scripts\Util\SpriteAnimator.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Dialog.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterAnimator.cs" />
+    <Compile Include="Assets\Scripts\Character\NPCController.cs" />
+    <Compile Include="Assets\Scripts\Character\TrainerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
